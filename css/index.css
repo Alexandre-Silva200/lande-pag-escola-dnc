@@ -139,11 +139,11 @@
     width: 59px;
 }
 #bloco-comentario>#seta-para-esquedar>img{
-    width: 59px;
+    width: 15px;
     display: none;
     
 }
 
-##bloco-comentario>.samantna{
+#comentarios>#bloco-comentario>.samantna{
     display: none;
 }
