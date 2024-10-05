@@ -137,11 +137,24 @@
 
 #bloco-comentario>#seta-para-direita>img{
     width: 59px;
+    cursor: pointer;
 }
+
+#bloco-comentario>#seta-para-direita>img:hover{
+    transform: translatey(-7px);
+    transition-duration: 0.5s;
+}
+
 #bloco-comentario>#seta-para-esquedar>img{
     width: 15px;
     display: none;
+    cursor: pointer;
     
+}
+
+#bloco-comentario>#seta-para-esquedar>img:hover{
+    transform: translatey(-7px);
+    transition-duration: 0.5s;
 }
 
 #comentarios>#bloco-comentario>.samantna{
