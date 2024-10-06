@@ -160,3 +160,62 @@
 #comentarios>#bloco-comentario>.samantna{
     display: none;
 }
+
+/*formulario*/
+
+.formulario{
+    max-width: 100%;
+    max-height: auto;
+    padding: 20px;
+    margin: 30px;
+}
+
+#formulario01{
+    display: grid;
+    justify-items: center;
+    flex-direction: column;
+}
+
+#formulario01>#h1-do-formular{
+    padding-bottom: 30px;
+    font-size: 25px;
+    color: #383838;
+}
+
+#formulario01>#input>form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+#formulario01>#input>form>input{
+    width: 413px;
+    background-color: #eaece5;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    color: #247ba0;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#formulario01>#input>form>input:hover{
+    transform: translatey(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario01>#input>form>#btn{
+    width: 315px;
+    background-color: #247ba0;
+    color: #ffffff;
+    margin-left: 70px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#formulario01>#input>form>#btn:hover{
+    transform: translatey(-7px);
+    transition-duration: 0.5s;
+    background-color: #318fb3;
+    box-shadow: 0px 15px 20px #063244;
+}
