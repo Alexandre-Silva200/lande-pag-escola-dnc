@@ -33,23 +33,23 @@
 
     /*  inicio section */
 
-    #apresentacao{
+    /* #apresentacao{
         display: flex;
         flex-direction: column;
         padding-top: 20px;
-    }
+    } */
 
-    #apresentacao>#video>iframe{
+    /* #apresentacao>#video>iframe{
         width: 800px;
         height: 400px;
         margin-left: -130px;
-     }
+     } */
 
      #apresentacao>#projeto{
         padding-top: 20px;
     }
     
-    #apresentacao>#projeto>h1{
+    /* #apresentacao>#projeto>h1{
         font-size: 35px;
         margin-left: -16px;
     }
@@ -57,7 +57,7 @@
     #apresentacao>#projeto>p{
         font-size: 20px;
         margin-left: -16px;
-    }
+    } */
     
     /*inicios de comentarios*/
     #comentarios>#h1>h1{
@@ -72,13 +72,6 @@
         width: 100px;
     }
     
-    #bloco-comentario>#comentario>#grid>p{
-        font-size: 18px;
-    }
-    
-    #bloco-comentario>#comentario>#grid>span{
-        font-size: 18px;
-    }
 }
 
 @media (max-width: 800px){
